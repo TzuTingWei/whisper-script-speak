@@ -41,7 +41,7 @@ const ConferenceForm = () => {
       <CardContent>
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="space-y-2">
-            <Label htmlFor="conference">Which conference are you going to?</Label>
+            <Label htmlFor="conference">Which event are you going to?</Label>
             <Select value={selectedConference} onValueChange={setSelectedConference}>
               <SelectTrigger>
                 <SelectValue placeholder="Select a conference" />
