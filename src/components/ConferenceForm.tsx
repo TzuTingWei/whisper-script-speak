@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -28,16 +27,8 @@ const ConferenceForm = () => {
   };
 
   const conferences = [
-    'TechCrunch Disrupt',
-    'CES 2024',
-    'SXSW',
-    'Web Summit',
-    'AI Conference 2024',
-    'React Conf',
-    'Google I/O',
-    'Apple WWDC',
-    'Microsoft Build',
-    'AWS re:Invent',
+    'Compmotif Hackathon (London)',
+    'ICML 2024',
   ];
 
   return (
